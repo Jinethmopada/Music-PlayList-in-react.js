@@ -1,0 +1,52 @@
+.list-container {
+  list-style-type: none;
+}
+
+.image-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.song-img {
+  width: 200px;
+  margin: 25px;
+}
+
+.name {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.genre {
+  font-size: 20px;
+  font-weight: 500;
+  color: #3b82f6;
+  padding-left: 50px;
+}
+
+.duration {
+  color: #ffffff;
+  font-size: 25px;
+  padding-left: 450px;
+  padding-top: 35px;
+}
+
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  margin: 8px;
+  cursor: pointer;
+  outline: none;
+  padding-left: 250px;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  margin: 30px;
+  text-align: center;
+}
